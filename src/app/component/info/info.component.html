@@ -1,0 +1,16 @@
+<div class="container  spb-home">
+    <div class="row justify-content-center mb-20">
+        <h1>
+            ISO 19001
+        </h1>
+    </div>
+    <div class="row justify-content-center g-xl-8">
+        <div *ngFor="let card of box" class="col-xl-2 col-md-4 box-escolhas c-pointer" [routerLink]="card.link">
+            <div class="icon-box opcao-navegacao card-flush">
+                <i [class]=" card.icon + ' bi--5xl opcoes-navegacao-icon'"></i>
+                <span class="spb-titulos"><a [routerLink]="card.link"
+                        class=" size-16px">{{card.name}}</a></span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,164 @@
+.spb-logo {
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+}
+
+img {
+    max-height: 2.5rem;
+    width: 200px;
+    display: block;
+}
+
+img[class] {
+    width: 300px;
+    height: 300px;
+}
+
+#navbarmeio {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-spb {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 5px;
+}
+
+
+
+.painelescolhas {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+
+}
+
+.painelescolhas .justify-content-center {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+.spb-home h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.spb-home h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.spb-titulos a {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0 0;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icon-box {
+    padding: 30px 20px;
+    transition: ease-in-out 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+}
+
+.opcao-navegacao span a {
+    color: #fff;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.opcao-navegacao span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.opcao-navegacao {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.box-escolhas {
+    margin-top: 20px;
+
+}
+
+
+.opcoes-navegacao-icon {
+    color: #fff;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 15px;
+    font-size: 36px;
+    line-height: 1;
+    flex: auto;
+}
+
+.btn-prefeitura {
+    border-radius: 0.15rem;
+    background-color: #0059ff;
+    align-items: center;
+    display: flex;
+}
+
+.logo-spb-brasil {
+
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: auto;
+    margin-right: 9px;
+}
+
+.box-escolhas:hover {
+    transform: scale(1.3);
+    transition: transform 500ms ease-in-out;
+    
+}
+.box-escolhas:hover > .opcao-navegacao{
+    border-color: rgb(57, 224, 57);
+ }
+
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-item:hover > .nav-link {
+    color: rgb(0, 0, 255) !important;
+    
+}
+
+.hover-text-primary:hover > i {
+    color: #0059ff;
+}
+
+a:hover .text-muted{
+    color: #0059ff;
+}
+
+.hover-primary:hover > span {
+    color: #0059ff !important;
+}
+.hover-primary:hover > span > i {
+    color: #0059ff !important;
+}

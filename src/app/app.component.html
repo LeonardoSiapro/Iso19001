@@ -1,0 +1,78 @@
+<div class="h-100 w-100 p-3">
+
+  <div class="h-100 w-100 position-fixed">
+    <div class="h-100 overflow-auto">
+      <header>
+        <div class="p-3">
+          <nav class="navbar navbar-expand-lg navbar-light nav-spb" style="border-radius: 5px;">
+            <div class="container-fluid">
+              <a class="navbar-brand" routerLink="/">ISO 19001 </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex justify-content-between w-100">
+                  <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                  </div>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" routerLink="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" routerLink="/meu-perfil">Sobre</a>
+                    </li>
+                  </ul>
+
+                </div>
+
+
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="p-10 mb-100px min-h-70">
+        <router-outlet class="h-100 w-100 "></router-outlet>
+      </section>
+      <footer id="footer" class="mb-60px">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="footer-top nav-spb w-100 mr-20px">
+            <div class="container text-center">
+              <div class="d-flex justify-content-between align-items-center">
+                <div></div>
+                <div class="col-md-6 p-2 telefone row">
+                  <div class="col-md-12">
+                    <a href="tel:+5535984191788" target="_blank" class="text-muted hover-primary"><span
+                        class="mr-5px"><i class="bi bi-telephone-outbound"></i> +55
+                        35 98419-1788
+                      </span></a>&ensp;|&ensp;
+                    <a href="mailto:leonardo1998cbq@hotmail.com" class="text-muted hover-primary size-16px"><span
+                        class="mr-5px"><i class="bi bi-envelope"></i>
+                        leonardo1998cbq@hotmail.com
+                      </span></a>
+                  </div>
+                  <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <span class="text-muted">
+                      © Copyright - LIZZEIRA TI E DESENVOLVIMENTO
+
+                    </span>
+                  </div>
+                </div>
+                <div>
+                  <a href="https://www.facebook.com/leonardo.liz.50/" target="_blank"
+                    class="facebook mr-5px hover-text-primary"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/leo_lizz98/" target="_blank"
+                    class="instagram mr-5px hover-text-primary"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/leonardo-lizzeira/" target="_blank"
+                    class="linkedin mr-5px hover-text-primary"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
